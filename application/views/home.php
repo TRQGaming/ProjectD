@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="ht" >
     <head>
         <meta charset="utf-8">
         <title>Home Page</title>
@@ -10,7 +10,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
-    <body>
+    <body link="black">
         <div class="black">
             <div class="col-sm-12 col-lg-12 col-md-12">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -28,7 +28,7 @@
                             <h2 id="login">Game  <span class="glyphicon glyphicon-cloud"></span></h2>
                             <div class="middle room">
                                 <a class="middle" href="games"><h3 id="login">View  <span class="glyphicon glyphicon-off"></span></h3></a>
-                                <a class="middle" href="index"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
+                                <a class="middle" href="/users/admin"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
                             </div>
                         </div>
                       </div>
@@ -40,7 +40,7 @@
                             <h2 id="login">Game  <span class="glyphicon glyphicon-cloud"></span></h2>
                             <div class="middle room">
                                 <a class="middle" href="games"><h3 id="login">View  <span class="glyphicon glyphicon-off"></span></h3></a>
-                                <a class="middle" href="index"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
+                                <a class="middle" href="/users/admin"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
                             </div>
                         </div>
                       </div>
@@ -52,7 +52,7 @@
                             <h2 id="login">Game  <span class="glyphicon glyphicon-cloud"></span></h2>
                             <div class="middle room">
                                 <a class="middle" href="games"><h3 id="login">View  <span class="glyphicon glyphicon-off"></span></h3></a>
-                                <a class="middle" href="index"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
+                                <a class="middle" href="/users/admin"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
                             </div>
                         </div>
                       </div>
@@ -64,7 +64,7 @@
                             <h2 id="login">Game  <span class="glyphicon glyphicon-cloud"></span></h2>
                             <div class="middle room">
                                 <a class="middle" href="games"><h3 id="login">View  <span class="glyphicon glyphicon-off"></span></h3></a>
-                                <a class="middle" href="index"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
+                                <a class="middle" href="/users/admin"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
                             </div>
                         </div>
                       </div>
@@ -76,7 +76,7 @@
                             <h2 id="login">Game  <span class="glyphicon glyphicon-cloud"></span></h2>
                             <div class="middle room">
                                 <a class="middle" href="games"><h3 id="login">View  <span class="glyphicon glyphicon-off"></span></h3></a>
-                                <a class="middle" href="index"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
+                                <a class="middle" href="/users/admin"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
                             </div>
                         </div>
                       </div>
@@ -88,7 +88,7 @@
                             <h2 id="login">Game  <span class="glyphicon glyphicon-cloud"></span></h2>
                             <div class="middle room">
                                 <a class="middle" href="games"><h3 id="login">View  <span class="glyphicon glyphicon-off"></span></h3></a>
-                                <a class="middle" href="index"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
+                                <a class="middle" href="/users/admin><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
                             </div>
                         </div>
                       </div>
@@ -100,7 +100,7 @@
                             <h2 id="login">Game  <span class="glyphicon glyphicon-cloud"></span></h2>
                             <div class="middle room">
                                 <a class="middle" href="games"><h3 id="login">View  <span class="glyphicon glyphicon-off"></span></h3></a>
-                                <a class="middle" href="index"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
+                                <a class="middle" href="/users/admin"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
                             </div>
                         </div>
                       </div>
@@ -112,7 +112,7 @@
                             <h2 id="login">Game  <span class="glyphicon glyphicon-cloud"></span></h2>
                             <div class="middle room">
                                 <a class="middle" href="games"><h3 id="login">View  <span class="glyphicon glyphicon-off"></span></h3></a>
-                                <a class="middle" href="index"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
+                                <a class="middle" href="/users/admin"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
                             </div>
                         </div>
                       </div>
@@ -124,7 +124,7 @@
                             <h2 id="login">Game  <span class="glyphicon glyphicon-cloud"></span></h2>
                             <div class="middle room">
                                 <a class="middle" href="games"><h3 id="login">View  <span class="glyphicon glyphicon-off"></span></h3></a>
-                                <a class="middle" href="index"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
+                                <a class="middle" href="/users/admin"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
                             </div>
                         </div>
                       </div>
@@ -136,7 +136,7 @@
                             <h2 id="login">Game  <span class="glyphicon glyphicon-cloud"></span></h2>
                             <div class="middle room">
                                 <a class="middle" href="games"><h3 id="login">View  <span class="glyphicon glyphicon-off"></span></h3></a>
-                                <a class="middle" href="index"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
+                                <a class="middle" href="/users/admin"><h5 id="login">Login  <span class="glyphicon glyphicon-user"></span></h5></a>
                             </div>
                         </div>
                       </div>

@@ -3,12 +3,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Users extends CI_Controller {
 
+
+
+ public function admin()
+ {
+ $this->load->view('index');
+ }
 	public function index()
 	{
 // <<<<<<< HEAD
 		// $this->output->enable_profiler();
 
-		$this->load->view('index');
+		$this->load->view('home');
 // =======
 // >>>>>>> master
 	}
@@ -24,6 +30,12 @@ class Users extends CI_Controller {
 	{
 		$this->load->view('home');
 	}
+	public function games()
+	{
+		$this->load->view('games');
+	}
+
+
 
 
 	// public function user_register()
@@ -83,6 +95,7 @@ class Users extends CI_Controller {
 	}
 
 
+
 public function cart()
 			{
 						$this->load->view('order');
@@ -95,6 +108,26 @@ public function cart()
 													return $user_order;
 											}
 							}
+			}
+
+
+      public function get_page($num)
+      {
+        $this->load->model("product");
+        $product = $this->Product->get_page($num);
+        header('content-type: application/json');
+        echo json_encode($product);
+      }
+
+
+
+
+			public function get_all()
+			{
+				$this->load->model('product');
+				$model = $this->product->fetch_all();
+				header('content-type: application/json');
+				echo json_encode($product);
 			}
 
 
